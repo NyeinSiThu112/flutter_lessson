@@ -11,3 +11,16 @@ class IconLesson extends StatelessWidget {
     );
   }
 }
+
+class IconLesson2 extends StatelessWidget {
+const IconLesson2({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return const Icon(
+      Icons.audiotrack,
+      color:Colors.green,
+    );
+    
+  }
+}

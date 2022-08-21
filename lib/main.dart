@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lesson/src/widgets/lesson_002_text.dart';
+import 'package:flutter_lesson/src/widgets/lesson_003_textfield.dart';
+import 'package:flutter_lesson/src/widgets/lesson_004_image.dart';
 import 'package:flutter_lesson/src/widgets/widgets.dart';
 
 void main() {
@@ -42,8 +45,21 @@ class LessonHome extends StatelessWidget {
       body: Column(
         children: const [
           IconLesson(),
+          IconLesson2(),
+          TextLesson(),
+          TextFieldLessson(),
+          // ImageLesson(),
+          // ButtonLesson(),
+          // SwitchLesson(),
+          RaidoLessson(),
+          CheckboxLesson(),
+          SliderLesson(),
+        
           
-        ],
+        
+        
+          
+        ]
       ),
     );
   }
